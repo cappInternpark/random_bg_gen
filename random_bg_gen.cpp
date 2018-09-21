@@ -161,7 +161,7 @@ int main(){
 	cv::Size img_size = cv::Size(640,360);
 	string img_list_file_path = "PaperCup_random_bg_sample.txt";
 	//string img_list_file_path = "PaperCup_random_bg.txt";
-	string output_img_dir = "PaperCup_random_bg";
+	string output_img_dir = "PaperCup_random_bg_sample";
 	//string output_img_dir = "PaperCup_random_bg";
 	ifstream img_list(img_list_file_path);
 

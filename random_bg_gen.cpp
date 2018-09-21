@@ -159,7 +159,7 @@ int comb_img(const Mat bg, const vector<Mat> &crop_vec, const vector<Rect> &box_
 
 int main(){
 	cv::Size img_size = cv::Size(640,360);
-	string img_list_file_path = "PaperCup_random_bg.txt";
+	string img_list_file_path = "PaperCup_random_bg_sample.txt";
 	//string img_list_file_path = "PaperCup_random_bg.txt";
 	string output_img_dir = "PaperCup_random_bg";
 	//string output_img_dir = "PaperCup_random_bg";
